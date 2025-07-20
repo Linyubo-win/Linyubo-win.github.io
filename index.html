@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>玫瑰鲜羊奶</title>
+  </head>
+  <body class="bg-green-50 font-sans">
+    <header class="bg-white shadow">
+      <div class="container mx-auto p-6 flex flex-col items-center">
+        <h1 class="text-4xl font-bold text-green-900 mb-2">玫瑰鲜羊奶</h1>
+        <p class="text-lg text-green-700">健康家庭的优选，源自自然牧场</p>
+      </div>
+    </header>
+    <main class="container mx-auto p-4">
+      <!-- 情绪板 -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-green-800 mb-4"></h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="牧场" class="rounded-lg shadow">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="山羊" class="rounded-lg shadow">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="绿色草地" class="rounded-lg shadow">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="新鲜羊奶" class="rounded-lg shadow">
+        </div>
+      </section>
+      <!-- 产品详情 -->
+      <section class="flex flex-col md:flex-row bg-white rounded-lg shadow-lg p-6">
+        <div class="md:w-1/2 flex justify-center items-center">
+          <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="有机羊奶" class="w-full max-w-xs rounded-lg shadow">
+        </div>
+        <div class="md:w-1/2 md:pl-8 mt-6 md:mt-0 flex flex-col justify-center">
+          <h2 class="text-2xl font-semibold text-green-900">产品介绍</h2>
+          <p class="mt-2 text-gray-700">玫瑰鲜羊奶，纯净无添加，富含钙、蛋白质和多种维生素，适合全家饮用。每一滴羊奶都源自自然牧场，守护您的健康。</p>
+          <ul class="mt-4 text-green-800 list-disc list-inside">
+            <li>100%有机认证</li>
+            <li>无激素、无抗生素</li>
+            <li>天然营养，易吸收</li>
+          </ul>
+          <h3 class="text-xl font-semibold mt-4 text-green-700">价格：￥39.9 / 1L</h3>
+          <button class="mt-4 px-6 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition" data-target="my-element" >加入购物车</button>
+        </div>
+      </section>
+      <!-- 营养信息 -->
+      <section class="mt-10 bg-green-100 rounded-lg p-6 shadow">
+        <h2 class="text-2xl font-semibold text-green-800 mb-4">营养成分对比</h2>
+        <div class="overflow-x-auto">
+          <table class="min-w-full bg-white rounded-lg shadow text-center">
+            <thead>
+              <tr>
+                <th class="py-2 px-4 border-b text-green-900">营养成分 (每100ml)</th>
+                <th class="py-2 px-4 border-b text-green-900">有机羊奶</th>
+                <th class="py-2 px-4 border-b text-green-900">普通牛奶</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-2 px-4 border-b">钙</td>
+                <td class="py-2 px-4 border-b text-green-700 font-semibold">120mg</td>
+                <td class="py-2 px-4 border-b text-blue-700">104mg</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-4 border-b">蛋白质</td>
+                <td class="py-2 px-4 border-b text-green-700 font-semibold">3.2g</td>
+                <td class="py-2 px-4 border-b text-blue-700">3.0g</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-4 border-b">维生素A</td>
+                <td class="py-2 px-4 border-b text-green-700 font-semibold">40μg</td>
+                <td class="py-2 px-4 border-b text-blue-700">28μg</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-4 border-b">维生素D</td>
+                <td class="py-2 px-4 border-b text-green-700 font-semibold">0.8μg</td>
+                <td class="py-2 px-4 border-b text-blue-700">0.5μg</td>
+              </tr>
+              <tr>
+                <td class="py-2 px-4 border-b">脂肪</td>
+                <td class="py-2 px-4 border-b text-green-700 font-semibold">4.1g</td>
+                <td class="py-2 px-4 border-b text-blue-700">3.6g</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mt-4 text-green-700">羊奶富含多种人体必需营养素，部分营养成分高于牛奶，更易消化吸收，低乳糖耐受性
+
+，更适合关注健康的家庭。</p>
+      </section>
+      <!-- 有机牧场介绍 -->
+      <section class="mt-10 bg-white rounded-lg p-6 shadow">
+        <h2 class="text-2xl font-semibold text-green-800">关于我们的牧场</h2>
+        <p class="mt-2 text-gray-700">我们坚持可持续发展理念，采用生态放养方式，山羊自由采食天然牧草，远离污染。</p>
+        <ul class="mt-2 text-green-800 list-disc list-inside">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+    </main>
+    <footer class="bg-white shadow mt-8">
+      <div class="container mx-auto p-4 text-center">
+        <p class="text-gray-600">© 2025 玫瑰鲜羊奶. 保留所有权利.</p>
+      </div>
+    </footer>
+
+    <script>
+      const element = document.querySelector('[data-target="my-element"]');
+      element.addEventListener('click', () => {
+        alert('感谢您的支持！')
+      })
+    </script>
+  </body>
+</html>
